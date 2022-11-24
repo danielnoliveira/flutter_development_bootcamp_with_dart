@@ -54,10 +54,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text("I'm Poor"),
       ),
       body: Center(
-        child: Image.asset('assets/fish_bones.png'),
+        child: Image.asset('assets/fish_bones.png', scale: 0.5),
       ),
     );
   }
